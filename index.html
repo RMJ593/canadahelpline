@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- POPUP CONTAINER -->
+    <div id="popup" class="popup-overlay">
+        <div class="popup-content">
+            
+            <!-- LOGO -->
+            <img src="images/logo.jpeg" alt="Canada Helpline Logo" class="popup-logo">
+            <h2>Canada's One Touch Helpline Portal for Jobs</h2>
+
+            <!-- JOB CATEGORIES -->
+            <div class="job-boxes">
+                <div class="job-box">Semi-Skilled Jobs</div>
+                <div class="job-box">Skilled Jobs</div>
+                <div class="job-box">Executive Jobs</div>
+            </div>
+
+            <!-- TERMS AND CONDITIONS -->
+            <div class="terms">
+                <a href="#" id="termsLink">Safety Guideline</a>
+                <br>
+                <input type="checkbox" id="acceptTerms"> I read and accept
+                <br>
+                <button id="enterButton" disabled>Enter the Website</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- TERMS MODAL -->
+    <div id="termsModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Safety Guideline</h3>
+            <p>
+                Welcome to Canada Helpline! By using our platform, you agree to our Terms & Conditions.
+                Please review them carefully to ensure a safe experience.
+            </p>
+            <p><strong>Key Points:</strong></p>
+            <ul>
+                <li>Provide accurate job listings and profile information.</li>
+                <li>Do not share sensitive personal information with unverified parties.</li>
+                <li>Report fraudulent activity immediately to help@canadahelpline.ca.</li>
+                <li>Employers must comply with Canadian employment laws.</li>
+                <li>Canada Helpline is not liable for fraudulent listings or employer decisions.</li>
+            </ul>
+            <p><strong>Contact Us:</strong><br>
+                Email: help@canadahelpline.ca<br>
+                Phone: +1-416-315-4451
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

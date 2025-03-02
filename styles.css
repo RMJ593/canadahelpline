@@ -7,11 +7,11 @@ body {
     justify-content: center;
     background: linear-gradient(to bottom, white, lightblue); 
 }
-
 .popup-overlay {
     width: 75vw;
     height: 75vh;
-    background: white; 
+    background: url('images/bg_R.jpg') no-repeat center center;
+    background-size: cover;
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -20,6 +20,8 @@ body {
     flex-direction: column;
     position: relative;
 }
+
+
 .popup-logo {
     position: absolute;
     top: 15px;
@@ -57,7 +59,7 @@ body {
 
 .terms {
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 20px;
     text-align: center;
 }
 

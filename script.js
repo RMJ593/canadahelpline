@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const lastAccepted = localStorage.getItem("popupLastAccepted");
     const now = new Date().getTime();
-   
+    // const eightHours = 10;
     const eightHours = 8 * 60 * 60 * 1000;
 
     if (lastAccepted && now - lastAccepted < eightHours) {

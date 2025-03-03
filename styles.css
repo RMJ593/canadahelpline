@@ -10,7 +10,7 @@ body {
 .popup-overlay {
     width: 75vw;
     height: 75vh;
-    background: url('images/bg_R.jpg') no-repeat center center;
+    background: url('images/bg_1.jpg') no-repeat center center;
     background-size: cover;
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -136,4 +136,5 @@ body {
         justify-self: center; 
     }
 
-} 
+}
+
